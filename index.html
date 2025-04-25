@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mykhailo Medviediev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Roboto', sans-serif;
+      background: #f0f2f5;
+      color: #1a202c;
+    }
+
+    .container {
+      max-width: 900px;
+      background: #fff;
+      margin: auto;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2a4365;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #2c5282;
+      margin-top: 2rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: #2b6cb0;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+      padding-left: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .indent {
+      margin-left: 1.5rem;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+  .experience-block {
+      border-left: 4px solid #2c5282;
+      padding-left: 1rem;
+      margin-left: 0.5rem;
+    }
+  
+    .skills-grid {
+      display: flex;
+      gap: 2rem;
+    }
+    .skills-grid ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mykhailo Medviediev</h1>
+
+    <p>✉ Email: <a href="mailto:mykhailo.medviediev@gmail.com">mykhailo.medviediev@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/mykhailo-medviediev-55a5852a3/" target="_blank">LinkedIn</a></p>
+
+    <p>A 19-year-old DevOps engineer based in Poland. I passionate about automation and infrastructure 
+    development. I thrive on solving complex challenges and building efficient, scalable systems.</p>
+
+    <h2>Experience</h2>
+    <div class="experience-block">
+
+    <h3>DevOps Engineer</h3>
+    <p>NDA, Jan 2023 - Jan 2025</p>
+
+    <p>As a DevOps Engineer for a constantly growing product company, I was responsible for 
+    maintaining the existing production environment and developing new infrastructure to 
+    meet the demands of a growing customer base. The product included more than a dozen 
+    services and numerous WordPress websites. The infrastructure was tightly integrated 
+    with AWS cloud-native solutions. All services were deployed using ALB, ECS, 
+    CloudFront, EC2, S3, and other AWS services.</p>
+
+    <p>During my time at the company, I introduced several improvements and enhancements:</p>
+    <ul>
+      <li>Implemented monitoring and performance management with AWS CloudWatch (metrics, alerts).</li>
+      <li>Properly configured auto-scaling for the production environment.</li>
+      <li>Refactored old infrastructure code.</li>
+      <li>Developed new infrastructure tailored to the projectʼs needs.</li>
+      <li>Migrated infrastructure from AWS CDK (TypeScript) to Terraform.</li>
+      <li>Created a unified Jenkins job for deploying infrastructure, making the process more convenient and organized.</li>
+      <li>Implemented instance profile for Jenkins, eliminating the need to store credentials in pipelines and improving security.</li>
+      <li>Deployed and configured DataDog agents in ECS clusters, setting up environment-specific parameters to enable comprehensive application monitoring and data collection.</li>
+      <li>Wrote documentation that included:
+        <ul>
+          <li>Collected information about 30+ EC2 instances and other cloud resources that had been manually deployed prior to my tenure and lacked standardization, with detailed coverage of domain routing, server stack configurations, and resource allocations. Additionally, designed infrastructure diagrams to visualize resource relationships and improve clarity.</li>
+          <li>The structure, environments, and deployment process for the projects I was responsible for.</li>
+          <li>Guides for recurring manual tasks.</li>
+        </ul>
+      </li>
+    </ul>
+
+    </div>
+
+<h2>Education</h2>
+    <p><strong>KNEU - Kyiv College of Information Systems and Technologies | 2020 - 2024</strong></p>
+    <p>Bachelorʼs Degree in Systems Administration</p>
+
+    <h2>Languages</h2>
+    <ul>
+      <li>English - Intermediate</li>
+      <li>Ukrainian - Native</li>
+      <li>Russian - Native</li>
+    </ul>
+
+    
+<h2>Skills</h2>
+<div class="skills-grid">
+  <ul>
+    <li><strong>Cloud Platforms:</strong> AWS (EC2, ECS, ALB, ECR, CloudFront, S3, CloudWatch etc.)</li>
+    <li><strong>Scripting:</strong> Bash</li>
+    <li><strong>Containerization:</strong> Docker</li>
+    <li><strong>Web Servers:</strong> Nginx, Apache</li>
+    <li><strong>Kubernetes</strong></li>
+  </ul>
+  <ul>
+    <li><strong>CI/CD:</strong> Jenkins</li>
+    <li><strong>Infrastructure as Code:</strong> Terraform, AWS CDK (TypeScript)</li>
+    <li><strong>Version Control:</strong> Git</li>
+    <li><strong>Jira</strong></li>
+  </ul>
+</div>
+
+  </div>
+</body>
+</html>
